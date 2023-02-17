@@ -14,51 +14,46 @@ body {
     font-style: normal;
 }
 
-
-/* ------ Flex containers ----- */
-
-/* .flex-align {
-    display: flex;
-    align-items: center;
-    
-}
-
-
 /* ----- Header ----- */
 
-.header-nav-home,
-.header-nav-about-me,
+
 .header-text {
-   margin-left: 5px;
+   margin-left: 0.3125;
    }
 
+
+.header-nav-about-me {
+    margin-left: 1.2em;
+}
+
 .header-logo {
-    width: 34px;
+    width: 1.7em;
+    margin-left:  0.1875em;
+    margin-top:  0.1875em;
     
     }
    
-.header-text{
+.header-logo-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.375rem;
-    /* line-height: 100%; */
+    font-size: 1.3em;
     letter-spacing: -0.03em;
+    margin-left: .3125em
    }
 
-ul {
+header nav ul {
     display: flex;
     list-style-type: none;
     align-items: center;
     margin: 0;
-    padding: 25px;
+    padding: 1em;
     }
    
 .header-nav-home,
 .header-nav-about-me {
     font-family: 'Source Sans Pro';
+    color: #090909;
     font-weight: 600;
-    font-size: .9rem;
-    /* line-height: 1rem; */
     text-align: right; 
     cursor: pointer;
 }
@@ -68,8 +63,22 @@ ul {
 } 
 
 
-/* ----- Section One Hero ----- */
+/* ----- Main ----- */
 
-.hero-image {
+.main-image {
     width: 100%;
 }
+
+.main-info {
+    padding: 1em;
+}
+
+.main-info-title {
+    font-size: 1.4em;
+}
+
+
+
+
+
+
