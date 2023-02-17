@@ -1,5 +1,75 @@
+/* * {
+    border: 1px solid red;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 html, 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0E0E0E;
+    font-style: normal;
+}
+
+
+/* ------ Flex containers ----- */
+
+/* .flex-align {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+/* ----- Header ----- */
+
+.header-nav-home,
+.header-nav-about-me,
+.header-text {
+   margin-left: 5px;
+   }
+
+.header-logo {
+    width: 34px;
+    
+    }
+   
+.header-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    /* line-height: 100%; */
+    letter-spacing: -0.03em;
+   }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    }
+   
+.header-nav-home,
+.header-nav-about-me {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: .9rem;
+    /* line-height: 1rem; */
+    text-align: right; 
+    cursor: pointer;
+}
+
+.align-right {
+    margin-left: auto;
+} 
+
+
+/* ----- Section One Hero ----- */
+
+.hero-image {
+    width: 100%;
 }
