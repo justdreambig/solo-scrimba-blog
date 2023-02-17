@@ -16,18 +16,22 @@ body {
 
 /* ----- Header ----- */
 
-
-
-
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0 1em 0 1em;
+    
+    }
 
 .header-nav-about-me {
     margin-left: .2em;
-    min-width: 6em;
+    min-width: 5em;
 
 }
 
 .header-logo {
-    width: 1.7em;
+    width: 2em;  /* 1.7em */
     margin-left:  0.1875em;
     margin-top:  0.1875em;
     
@@ -36,21 +40,12 @@ body {
 .header-logo-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.3em;
+    font-size: 1.3em; /* 1.3em */
     letter-spacing: -0.03em;
     margin-left: .3125em;
     
    }
 
-header nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    margin: 0;
-    padding: 1em 1.5em 1em 1em;
-    
-    }
-   
 .header-nav-home,
 .header-nav-about-me {
     font-family: 'Source Sans Pro';
