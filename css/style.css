@@ -17,13 +17,13 @@ body {
 /* ----- Header ----- */
 
 
-.header-text {
-   margin-left: 0.3125;
-   }
+
 
 
 .header-nav-about-me {
-    margin-left: 1.2em;
+    margin-left: .2em;
+    min-width: 6em;
+
 }
 
 .header-logo {
@@ -38,7 +38,8 @@ body {
     font-weight: 700;
     font-size: 1.3em;
     letter-spacing: -0.03em;
-    margin-left: .3125em
+    margin-left: .3125em;
+    
    }
 
 header nav ul {
@@ -46,7 +47,8 @@ header nav ul {
     list-style-type: none;
     align-items: center;
     margin: 0;
-    padding: 1em;
+    padding: 1em 1.5em 1em 1em;
+    
     }
    
 .header-nav-home,
