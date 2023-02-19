@@ -15,33 +15,41 @@ body {
     background-color: #fafafa;
 }
 
+span {
+    display: block;
+}
+
 img {
     width: 100%;
 }
-    
-.main-image {
-    width: 100%;
-    /* height: auto; */
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto; */
+
+a:link {
+    text-decoration: none;
   }
 
 
+/* visited link */
+a:visited {
+    
+    text-decoration: none;
 
-/* ----- portfolio grid ----- */
-
-/* .grid {
-    padding: 1em;
-    grid-gap: 1em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-} */
-
-
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
 /* ----- Header ----- */
-
 
 header nav ul {
     display: flex;
@@ -58,7 +66,7 @@ header nav ul {
 }
 
 .header-logo {
-    width: 2em;  /* 1.7em */
+    width: 1.4475em;  /* 1.7em */
     margin-left:  0.1875em;
     margin-top:  0.1875em;
     
@@ -67,24 +75,31 @@ header nav ul {
 .header-logo-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.3em; /* 1.3em */
+    font-size: 0.847em; /* 1.3em */
     letter-spacing: -0.03em;
     margin-left: .3125em;
     
    }
 
+.nav-text {
+    margin-left: auto;
+} 
+
 .header-nav-home,
 .header-nav-about-me {
-    font-family: 'Source Sans Pro';
+    font-size: 0.75em;
     color: #090909;
     font-weight: 600;
     text-align: right; 
-    cursor: pointer;
+    
 }
 
-.align-right {
-    margin-left: auto;
-} 
+
+.header-nav-about-me {
+    margin-left: 1.875em;
+    margin-right: 1.5em;
+}
+
 
 /* ----- Main ----- */
 
@@ -107,24 +122,137 @@ header nav ul {
 }
 
 .main-info-title {
+    color: #fafafa;
     font-weight: 700;
     font-size: 2em;
     line-height: 108.2%;
     /* or 35px */
     letter-spacing: -0.03em;
+    cursor: pointer;
+    
 }
-
-
-
 
 .main-info-subtitle {
     font-size: 1em;
     line-height: 1.25em;
 }
 
+
+/* ----- Main Article from hero-post.html ----- */
+
+.main-article {
+    margin: 0 1.25em 3.2em 1.25em;
+}
+
+.main-article-title {
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 108.2%;
+    letter-spacing: -0.03em;
+
+}
+
+.main-article 
+.main-info-subtitle {
+    margin-bottom: 0;
+}
+
+.main-article img {
+    border-radius: 3px;
+    margin: 2.187em 0;
+    
+}
+
+
+.main-article h2 {
+    font-weight: 700;
+    font-size: 1em; 
+}
+
+.how-i-stay-committed-to-learning {
+    margin-top: 0;
+}
+
+.recent-posts {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.687em
+}
+
+
+
 /* < ----- post-card ----- > */
 
+.post-card-container {
+    margin: 2.125em 1.25em 1.687em 1.25em;
+    
+}
 
+.post-card-container img {
+    margin-bottom:  0.875em;
+}
+
+.blog-post-date {
+    color: #000000;
+    font-size:  0.885em;
+    line-height: 18px;
+    margin-bottom: 0.562em;
+}
+
+.blog-post-title {
+    font-size:1.5em;
+    font-weight: 700;
+    color: #141414;
+    line-height: 108.2%;
+}
+.post-card-container p {
+    color: #505050;
+    line-height: 125%;
+    
+}
+
+.view-more{
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    margin-bottom: 2.687em;
+}
+
+footer{
+    height: 6.562em;
+    background-color: #202020;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 0.75em;
+    line-height: 125%;
+    text-align: center;
+    color: #D7D7D7;
+}
+
+.my-learning-journal {
+    font-weight: 700;
+}
+
+
+
+/* ----- portfolio grid ----- */
+
+/* .grid {
+    padding: 1em;
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+} */
 
 
 
