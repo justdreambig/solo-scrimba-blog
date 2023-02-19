@@ -12,9 +12,32 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #0E0E0E;
     font-style: normal;
+    background-color: #fafafa;
 }
 
+img {
+    max-width: 100%;
+    
+}
+
+/* ----- portfolio grid ----- */
+
+.grid {
+    padding: 1em;
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    ;
+   
+
+    
+}
+
+
+
 /* ----- Header ----- */
+
 
 header nav ul {
     display: flex;
@@ -59,20 +82,40 @@ header nav ul {
     margin-left: auto;
 } 
 
-
 /* ----- Main ----- */
 
-.main-image {
-    width: 100%;
+.main-post-card {
+    position: relative;
+    
 }
 
 .main-info {
-    padding: 1em;
+    color: #fafafa;
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    margin: 0 1em 1em 1em; 
+}
+
+.main-info-date {
+    font-size: .8em;
+    margin-bottom: .5em;
 }
 
 .main-info-title {
-    font-size: 1.4em;
+    font-size: 1.2em;
+    margin: 0px;
+
 }
+
+.main-info-subtitle {
+    font-size: .8em;
+    
+
+}
+
+
+
 
 
 
