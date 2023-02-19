@@ -16,23 +16,27 @@ body {
 }
 
 img {
-    max-width: 100%;
-    
+    width: 100%;
 }
+    
+.main-image {
+    width: 100%;
+    /* height: auto; */
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+
 
 /* ----- portfolio grid ----- */
 
-.grid {
+/* .grid {
     padding: 1em;
     grid-gap: 1em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    ;
-   
-
-    
-}
+} */
 
 
 
@@ -103,16 +107,24 @@ header nav ul {
 }
 
 .main-info-title {
-    font-size: 1.2em;
-    margin: 0px;
-
+    font-weight: 700;
+    font-size: 2em;
+    line-height: 108.2%;
+    /* or 35px */
+    letter-spacing: -0.03em;
 }
+
+
+
 
 .main-info-subtitle {
-    font-size: .8em;
-    
-
+    font-size: 1em;
+    line-height: 1.25em;
 }
+
+/* < ----- post-card ----- > */
+
+
 
 
 
