@@ -138,13 +138,15 @@ header nav ul {
 }
 
 
-/* ----- Main Article from hero-post.html ----- */
+/* ----- Main Article / About Me ----- */
 
-.main-article {
+.main-article,
+.about-me {
     margin: 0 1.25em 3.2em 1.25em;
 }
 
-.main-article-title {
+.main-article-title,
+.about-me-title {
     font-weight: 700;
     font-size: 2em;
     line-height: 108.2%;
@@ -159,8 +161,11 @@ header nav ul {
 
 .main-article img {
     border-radius: 3px;
-    margin: 2.187em 0;
-    
+    margin: 2.187em 0;  
+}
+
+.about-me img {
+    width: 11.375em;
 }
 
 
