@@ -7,16 +7,12 @@
 
 html, 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
     color: #0E0E0E;
     font-style: normal;
     background-color: #fafafa;
-}
-
-span {
-    display: block;
 }
 
 img {
@@ -26,28 +22,23 @@ img {
 a:link {
     text-decoration: none;
     color: #0E0E0E;
+    cursor: pointer;
   }
-
 
 /* visited link */
 a:visited {
     color: #0E0E0E;
     text-decoration: none;
-
   }
   
   /* mouse over link */
   a:hover {
-    /* color: hotpink; */
-    cursor: pointer;
     text-decoration: underline;
   }
   
   /* selected link */
   a:active {
-    /* color: blue; */
-    cursor: pointer;
-    text-decoration: none;
+    text-decoration: underline;
   }
 
 /* ----- Header ----- */
@@ -59,12 +50,6 @@ header nav ul {
     padding: 0 1em 0 1em;
     
     }
-
-.header-nav-about-me {
-    margin-left: .2em;
-    min-width: 6em;
-
-}
 
 .header-logo {
     width: 1.4475em;  /* 1.7em */
@@ -93,9 +78,13 @@ header nav ul {
     font-weight: 600;
     text-align: right; 
     cursor: pointer;
-    
 }
 
+.header-nav-home {
+    margin-left: .2em;
+    min-width: 6em;
+
+}
 
 .header-nav-about-me {
     margin-left: 1.875em;
@@ -103,10 +92,14 @@ header nav ul {
 }
 
 
+
+
+
 /* ----- Main ----- */
 
 .main-post-card {
     position: relative;
+    
     
 }
 
@@ -190,8 +183,11 @@ header nav ul {
 
 /* < ----- post-card ----- > */
 
+
+
 .post-card-container {
     margin: 2.125em 1.25em 1.687em 1.25em;
+
     
 }
 
@@ -253,13 +249,62 @@ footer {
 
 /* ----- portfolio grid ----- */
 
-/* .grid {
-    padding: 1em;
+.grid {
+    /* padding: 1em; */
     grid-gap: 1em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(309px, 1fr));
 
-} */
+}
+
+
+/* ----- Media Queries ----- */
+
+@media (min-width: 800px) {
+    html {
+    max-width: 1300px;
+    }
+
+    .header-nav-home,
+    .header-nav-about-me {
+    font-size: 1em;
+    }
+
+    .header-logo-text {
+        font-size: 1.25em;
+    }
+
+    .header-logo {
+        width:  2.140625em;
+    }
+
+   
+
+    ul,
+    .main-info,
+    .post-card-container {
+        margin-left: 3.375em;
+        margin-right: 3.375em;
+        
+    }
+
+    .main-info-title {
+        font-size: 2.5em;
+    }
+
+    .main-image {
+        width: 100%;
+        height: 488px;
+        object-fit: cover;
+    }
+
+    .main-info-subtitle {
+        margin-bottom: 3.75em;
+    }
+        
+    
+
+}
 
 
 
