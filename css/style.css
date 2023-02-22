@@ -25,26 +25,27 @@ img {
 
 a:link {
     text-decoration: none;
+    color: #0E0E0E;
   }
 
 
 /* visited link */
 a:visited {
-    
+    color: #0E0E0E;
     text-decoration: none;
 
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    /* color: hotpink; */
     cursor: pointer;
     text-decoration: underline;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    /* color: blue; */
     cursor: pointer;
     text-decoration: none;
   }
@@ -91,6 +92,7 @@ header nav ul {
     color: #090909;
     font-weight: 600;
     text-align: right; 
+    cursor: pointer;
     
 }
 
